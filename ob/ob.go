@@ -15,3 +15,25 @@ var John interface{} = Person{
 var Foo = sub.Bar{
 	Baz: "baz",
 }
+
+var Slice = []Person{
+	{
+		Name: "Jim",
+		Age:  19,
+	},
+	{
+		Name: "Jen",
+		Age:  20,
+	},
+}
+
+var Map = map[string]Person{
+	"dave": {
+		Name: "Dave",
+		Age:  25,
+	},
+	"pete": {
+		Name: "Pete",
+		Age:  27,
+	},
+}
